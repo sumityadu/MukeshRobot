@@ -7,18 +7,18 @@ class Config(object):
     API_ID = "" # integer value, dont use ""
     API_HASH = ""
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 2145093972 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_ID = 6769798391 # If you dont know, run the bot and do /id in your private chat with it, also an integer
     
-    SUPPORT_CHAT = "the_support_chat"  # Your own group for support, do not add the @
-    START_IMG = ""
+    SUPPORT_CHAT = "https://t.me/SPEED_NETWORK1"  # Your own group for support, do not add the @
+    START_IMG = "https://telegra.ph/file/86cb00242114f65245423.jpg"
     EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    MONGO_DB_URI= ""
+    MONGO_DB_URI= "mongodb+srv://Sukuna_sayzz:Sukuna_sayzz@cluster0.jpluikc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     # RECOMMENDED
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgres://bmhyghec:jT_X0shK_ttTiB7NrvDrRImRtDb2zysR@rain.db.elephantsql.com/bmhyghec"  # A sql database url from elephantsql.com
     CASH_API_KEY = (
-        ""  # Get your API key from https://www.alphavantage.co/support/#api-key
+        "FR3X432STWJRQWMA"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = ""
+    TIME_API_KEY = "Z86T9S9EP03T"
     
     # Get your API key from https://timezonedb.com/api
 
